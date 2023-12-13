@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Random topic generator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/favicon.io">
+  </head>
+  <body>
+    <h1>Random topic generator</h1>
+    <p>for <a href="https://nativecamp.net/textbook/page-detail/2/968" target="_blank">5 min discussion</a> on Native Camp</p>
+    <h2>Today's your topic for 5 min discussion</h2>
+    <p>
+      <div id="topic">Click on the button below.</div>
+      <div><img id="topic_image"></div>
+      <input id="button" type="button" value="Select a random topic" onclick="display()">
+    </p>
+    <p>
+      <details>
+        <summary>Option: topics that you DON'T want to choose</summary>
+        <div>
+          Checked ones are not chosen.
+          <div id="avoidance"></div>
+        </div>
+      </details>
+    </p>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
