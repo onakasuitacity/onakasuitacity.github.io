@@ -167,4 +167,8 @@ function display(){
     avoidance.appendChild(label);
     avoidance.appendChild(br);
   }
+
+  // load all images asynchronously
+  const load = async src => document.createElement("img").src = src;
+  for(var key in id_to_topic) load(`img/${key}.jpg`);
 })();
