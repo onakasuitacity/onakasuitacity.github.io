@@ -130,7 +130,7 @@ function display(){
   var topic_image = document.getElementById("topic_image");
   if(number){
     topic.textContent = `${number}: ${id_to_topic[number]}`;
-    topic_image.src = `../img/${number}.jpg`;
+    topic_image.src = `img/${number}.jpg`;
   }else{
     topic.textContent = "At least one topic must be unchecked.";
     topic_image.removeAttribute("src");
