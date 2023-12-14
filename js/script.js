@@ -106,22 +106,22 @@ const id_to_topic = {
 
 const N = Object.keys(id_to_topic).length;
 
+// variables
+const checked = new Array(N + 1);
+checked.fill(false);
+
 // functions
 function randrange(start, stop){
   return Math.floor(Math.random() * (stop - start)) + start;
 }
 
 function random_topic(){
-  // get avoidance
-  var avoidance = [];
-  document.getElementById("avoidance")
-    .querySelectorAll("input[name=topics]:checked")
-    .forEach(topic => avoidance.push(Number(topic.value)));
+  var sum = checked.reduce((a, b) => a + b);
   // exception
-  if(avoidance.length == N) return 0;
+  if(sum == N) return 0;
   // generate a random number
-  var number = randrange(1, N - avoidance.length + 1);
-  avoidance.forEach(a => number += number >= a);
+  var number = randrange(1, N - sum + 1);
+  for(var i = 1; i <= number; ++i) number += checked[i];
   return number;
 }
 
@@ -156,10 +156,10 @@ function display(){
     checkbox.onchange = e => {
       const checkbox = e.target;
       const key = checkbox.value;
-      const checked = checkbox.checked;
-      document.cookie = checked ? `${key}=;` : `${key}=; max-age=0`;
+      checked[key] = checkbox.checked;
+      document.cookie = checkbox.checked ? `${key}=;` : `${key}=; max-age=0`;
     };
-    if(cookies.includes(String(key))) checkbox.checked = true;
+    if(cookies.includes(String(key))) checked[key] = checkbox.checked = true;
  
     var label = document.createElement("label");
     label.appendChild(checkbox);
