@@ -112,15 +112,11 @@ function randrange(start, stop){
 }
 
 function random_topic(){
-  // clear cookies
-  for(var key in id_to_topic) document.cookie = `${key}=; max-age=0`;
   // get avoidance
   var avoidance = [];
   document.getElementById("avoidance")
     .querySelectorAll("input[name=topics]:checked")
     .forEach(topic => avoidance.push(Number(topic.value)));
-  // restore cookies
-  avoidance.forEach(key => document.cookie = `${key}=`);
   // exception
   if(avoidance.length == N) return 0;
   // generate a random number
@@ -148,14 +144,21 @@ function display(){
   var cookies = [];
   document.cookie.split(';')
     .forEach(cookie => cookies.push(cookie.trim().split('=')[0]));
+  
   // create checkboxes
   var avoidance = document.getElementById("avoidance");
-  
+
   for(var key in id_to_topic){
     var checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.name = "topics";
     checkbox.value = key;
+    checkbox.onchange = e => {
+      const checkbox = e.target;
+      const key = checkbox.value;
+      const checked = checkbox.checked;
+      document.cookie = checked ? `${key}=;` : `${key}=; max-age=0`;
+    };
     if(cookies.includes(String(key))) checkbox.checked = true;
  
     var label = document.createElement("label");
