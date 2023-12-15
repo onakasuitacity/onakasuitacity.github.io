@@ -140,10 +140,11 @@ function display(){
 
 // main
 (() => {
-  // get cookies
-  var cookies = [];
-  document.cookie.split(';')
-    .forEach(cookie => cookies.push(cookie.trim().split('=')[0]));
+  // get cookie
+  document.cookie.split(';').forEach(cookie => {
+    var key = cookie.trim().split('=')[0];
+    if(!isNaN(key) && 1 <= +key && +key <= 100) checked[key] = true;
+  });
   
   // create checkboxes
   var avoidance = document.getElementById("avoidance");
@@ -153,13 +154,13 @@ function display(){
     checkbox.type = "checkbox";
     checkbox.name = "topics";
     checkbox.value = key;
+    checkbox.checked = checked[key];
     checkbox.onchange = e => {
       const checkbox = e.target;
       const key = checkbox.value;
       checked[key] = checkbox.checked;
       document.cookie = checkbox.checked ? `${key}=;` : `${key}=; max-age=0`;
     };
-    if(cookies.includes(String(key))) checked[key] = checkbox.checked = true;
  
     var label = document.createElement("label");
     label.appendChild(checkbox);
