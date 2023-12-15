@@ -143,7 +143,7 @@ function display(){
   // get cookie
   document.cookie.split(';').forEach(cookie => {
     var key = cookie.trim().split('=')[0];
-    if(!isNaN(key) && 1 <= +key && +key <= 100) checked[key] = true;
+    if(!isNaN(key) && 1 <= +key && +key <= N) checked[key] = true;
   });
   
   // create checkboxes
