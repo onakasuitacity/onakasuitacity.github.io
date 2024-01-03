@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>IELTS Speaking Mock Test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4">IELTS Speaking Mock Test</h1>
+      <p>
+        This website is designed for candidates, especially those planning to take the IELTS test between January and April 2024, to practice the speaking component with actual topics, according to <a href="https://ielts-assistant.net/" target="_blank">IELTS Preparation Assistant</a>.<br>
+        For more information, see <a href="https://ielts-assistant.s3.amazonaws.com/book/IELTS-Speaking-Preparation-Full-Course.pdf?utm_source=eSputnik-trigger&utm_medium=email&utm_campaign=welcome_email_2023&utm_content=2363367893" target="_blank">IELTS Speaking Preparation Full Course</a>.
+      </p>
+      <fieldset>
+        <legend>Your role:</legend>
+        <div class="ms-2">
+          <input type="radio" name="role" id="examiner" class="m-1" onchange="examiner()"><label for="examiner">Examiner</label><br>
+          <input type="radio" name="role" id="candidate" class="m-1" onchange="candidate()"><label for="candidate">Candidate</label>
+        </div>
+      </fieldset>
+      <div class="examiner" hidden>
+        <h3 class="my-4">For examiners</h3>
+        <p>
+          The speaking component consists of 3 parts and takes 11 to 14 minutes overall:
+          <ul>
+            <li>
+              Part 1: 4 - 5 minutes
+              <ul>
+                <li>introduction</li>
+                <li>general questions</li>
+              </ul>
+            </li>
+            <li>
+              Part 2: 1 minute to prepare, 1 - 2 minutes to talk, 1 minute to be asked
+              <ul>
+                <li>preparation to talk on a given cue card</li>
+                <li>speaking</li>
+                <li>questions in regard to the preceding speaking</li>
+              </ul>
+            </li>
+            <li>
+              Part 3: 4 - 5 minutes
+              <ul>
+                <li>questions related to the cue card in part 2</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+        <p>
+          After the examination, provide feedback based on the following perspectives, which will be considered in the actual assessment:
+          <ul>
+            <li>fluency and coherence</li>
+            <li>lexical resource</li>
+            <li>grammatical range and accuracy</li>
+            <li>pronunciation</li>
+          </ul>
+        </p>
+      </div>
+      <div id="Topics" class="both" hidden>
+        <h2 class="my-4">Topics & Cue cards</h2>
+        <p>
+          <select name="part1_1" id="part1_1" class="form-select w-50 examiner my-3" onchange="display_introductory(this.options[this.selectedIndex].value)" hidden></select>
+          <select name="part1_2" id="part1_2" class="form-select w-50 examiner my-3" onchange="display_general(this.options[this.selectedIndex].value)" hidden></select>
+          <select name="part2_3" id="part2_3" class="form-select w-50 my-3" onchange="display_cue_card(this.options[this.selectedIndex].value)" class="both"></select>
+        </p>
+        <div class="examiner" hidden>
+          <h3>Part 1</h3>
+          <div id="introductory"></div>
+          <div id="general"></div>
+        </div>
+        <div class="both">
+          <h3>Part 2</h3>
+          <div id="cue_card"></div>
+        </div>
+        <div class="examiner" hidden>
+          <h3>Part 3</h3>
+          <div id="question"></div>
+        </div>
+      </div>
+      <p class="my-4">
+        source code: <a href="https://github.com/onakasuitacity/onakasuitacity.github.io" target="_blank">https://github.com/onakasuitacity/onakasuitacity.github.io</a>
+      </p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
