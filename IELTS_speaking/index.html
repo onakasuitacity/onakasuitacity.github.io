@@ -44,7 +44,7 @@
               <ul>
                 <li>preparation to talk on a given cue card</li>
                 <li>speech</li>
-                <li>questions in regard to the preceding speaking</li>
+                <li>questions in regard to the preceding speech</li>
               </ul>
             </li>
             <li>
@@ -60,7 +60,7 @@
           <ul>
             <li>placing numbers the candidate tells you in the Topics & Cue Cards section below</li>
             <li>keeping time</li>
-            <li>in part 1 and 3, asking questions from the list below along with the candidate's statement (not necessary to complete all the questions)</li>
+            <li>in part 1 and 3, asking questions from the list below along with the candidate's statement (<font color="red"><b>not necessary to ask all the questions</b></font>)</li>
             <li>in part 2, asking 1 or 2 of your original question(s) about the candidate's speech</li>
             <li>providing feedback based on fluency, vocabulary, grammar and pronunciation</li>
           </ul>
@@ -69,14 +69,13 @@
       <div id="Topics" class="both" hidden>
         <h2 class="my-4">Topics & Cue Cards</h2>
         <p>
-          <select name="part1_1" id="part1_1" class="form-select w-50 examiner my-3" onchange="display_introductory(this.options[this.selectedIndex].value)" hidden></select>
-          <select name="part1_2" id="part1_2" class="form-select w-50 examiner my-3" onchange="display_general(this.options[this.selectedIndex].value)" hidden></select>
-          <select name="part2_3" id="part2_3" class="form-select w-50 my-3" onchange="display_cue_card(this.options[this.selectedIndex].value)" class="both"></select>
+          <select name="part1_1" id="part1_1" class="form-select w-50 examiner my-3" onchange="display_questions()" hidden></select>
+          <select name="part1_2" id="part1_2" class="form-select w-50 examiner my-3" onchange="display_questions()" hidden></select>
+          <select name="part2_3" id="part2_3" class="form-select w-50 my-3" onchange="display_cue_card()" class="both"></select>
         </p>
         <div class="examiner" hidden>
           <h3>Part 1</h3>
-          <div id="introductory"></div>
-          <div id="general"></div>
+          <div id="questions"></div>
         </div>
         <div class="both">
           <h3>Part 2</h3>

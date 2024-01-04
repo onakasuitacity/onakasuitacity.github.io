@@ -152,7 +152,7 @@ const cue_cards = [
   {"title2": "", "instruction": "", "contents": [], "title3": "", "questions": []},
   {
     "title2": "Painting",
-    "instruction": "Describe a painting",
+    "instruction": "Describe a painting.",
     "contents": [
       "what it looked like",
       "when you saw it first",
@@ -172,7 +172,7 @@ const cue_cards = [
   },
   {
     "title2": "Photo",
-    "instruction": "Describe a photo that makes you feel happy",
+    "instruction": "Describe a photo that makes you feel happy.",
     "contents": [
       "where you took it",
       "when you took the photo",
@@ -189,7 +189,7 @@ const cue_cards = [
   },
   {
     "title2": "Party",
-    "instruction": "Describe a party that you enjoyed",
+    "instruction": "Describe a party that you enjoyed.",
     "contents": [
       "what party it was",
       "when it took place",
@@ -209,7 +209,7 @@ const cue_cards = [
   },
   {
     "title2": "Park or garden",
-    "instruction": "Describe a park or garden you like",
+    "instruction": "Describe a park or garden you like.",
     "contents": [
       "what park it is",
       "where it is",
@@ -225,7 +225,7 @@ const cue_cards = [
     ]
   },
   {
-    "title2": "Person who likes cooking for others",
+    "title2": "Person who likes cooking for others.",
     "instruction": "Describe someone who likes cooking for others",
     "contents": [
       "who this person is",
@@ -244,7 +244,7 @@ const cue_cards = [
   },
   {
     "title2": "Science subject",
-    "instruction": "Describe a science subject you're interested in",
+    "instruction": "Describe a science subject you're interested in.",
     "contents": [
       "what science subject it is",
       "how you got interested in it",
@@ -265,7 +265,7 @@ const cue_cards = [
   },
   {
     "title2": "Rule",
-    "instruction": "Describe an important rule at school or at work",
+    "instruction": "Describe an important rule at school or at work.",
     "contents": [
       "what rule it is",
       "why you think it is important",
@@ -282,7 +282,7 @@ const cue_cards = [
   },
   {
     "title2": "Person you haven't met before",
-    "instruction": "Describe someone you haven't seen before but you want to know more about",
+    "instruction": "Describe someone you haven't seen before but you want to know more about.",
     "contents": [
       "who this person is",
       "how you know about this person",
@@ -300,7 +300,7 @@ const cue_cards = [
   },
   {
     "title2": "Positive change in your life",
-    "instruction": "Describe something that changed your life in a positive way",
+    "instruction": "Describe something that changed your life in a positive way.",
     "contents": [
       "what the change was and when it happened",
       "how it happened",
@@ -316,7 +316,7 @@ const cue_cards = [
   },
   {
     "title2": "Waiting for a nice thing",
-    "instruction": "Describe a time you waited for a nice thing",
+    "instruction": "Describe a time you waited for a nice thing.",
     "contents": [
       "what you were waiting for, how you felt",
       "what you did while waiting",
@@ -336,7 +336,7 @@ const cue_cards = [
   },
   {
     "title2": "Bad service",
-    "instruction": "Describe a time when you received bad service at a restaurant or shop",
+    "instruction": "Describe a time when you received bad service at a restaurant or shop.",
     "contents": [
       "when and where it was",
       "what was wrong with the service",
@@ -363,7 +363,7 @@ const cue_cards = [
   },
   {
     "title2": "Sportsperson you admire",
-    "instruction": "Describe a sportsperson you admire",
+    "instruction": "Describe a sportsperson you admire.",
     "contents": [
       "who this person is",
       "what this person has achieved",
@@ -382,7 +382,7 @@ const cue_cards = [
   },
   {
     "title2": "Problem with the computer",
-    "instruction": "Describe a time when your computer broke down",
+    "instruction": "Describe a time when your computer broke down.",
     "contents": [
       "what the problem was, what you were doing",
       "when it was",
@@ -400,7 +400,7 @@ const cue_cards = [
   },
   {
     "title2": "Advice you gave",
-    "instruction": "Describe a time when you gave advice to others",
+    "instruction": "Describe a time when you gave advice to others.",
     "contents": [
       "who you gave advice to",
       "what the situation was",
@@ -424,7 +424,7 @@ const cue_cards = [
   },
   {
     "title2": "Successful business person",
-    "instruction": "Describe a successful business person you know",
+    "instruction": "Describe a successful business person you know.",
     "contents": [
       "who this person is",
       "how you know them",
@@ -446,7 +446,7 @@ const cue_cards = [
   },
   {
     "title2": "Beautiful city",
-    "instruction": "Describe a beautiful city",
+    "instruction": "Describe a beautiful city.",
     "contents": [
       "what city it is",
       "how you know it",
@@ -467,7 +467,7 @@ const cue_cards = [
   },
   {
     "title2": "Person with interesting ideas",
-    "instruction": "Describe a person who has interesting ideas and opinions",
+    "instruction": "Describe a person who has interesting ideas and opinions.",
     "contents": [
       "who this person is",
       "what this person does",
@@ -488,7 +488,7 @@ const cue_cards = [
   },
   {
     "title2": "Interesting place in your country",
-    "instruction": "Describe an interesting place in your country that is not visited by many tourists",
+    "instruction": "Describe an interesting place in your country that is not visited by many tourists.",
     "contents": [
       "what place it is",
       "where it is",
@@ -507,7 +507,7 @@ const cue_cards = [
   },
   {
     "title2": "Useful advertisement",
-    "instruction": "Describe an advertisement that you think is useful",
+    "instruction": "Describe an advertisement that you think is useful.",
     "contents": [
       "where you can see it",
       "what it shows",
@@ -530,7 +530,7 @@ const cue_cards = [
   },
   {
     "title2": "Difficult task",
-    "instruction": "Describe a difficult task that you completed at work or study that you felt proud of",
+    "instruction": "Describe a difficult task that you completed at work or study that you felt proud of.",
     "contents": [
       "what the task was",
       "how you completed it",
@@ -550,7 +550,7 @@ const cue_cards = [
   },
   {
     "title2": "Foreigner who speaks your native language",
-    "instruction": "Describe a foreigner who speaks your native language very well",
+    "instruction": "Describe a foreigner who speaks your native language very well.",
     "contents": [
       "who this person is",
       "where this person is from",
@@ -577,7 +577,7 @@ const cue_cards = [
   },
   {
     "title2": "Tiring activity",
-    "instruction": "Describe an activity that made you feel tired",
+    "instruction": "Describe an activity that made you feel tired.",
     "contents": [
       "what the activity was",
       "when and where was it",
@@ -596,7 +596,7 @@ const cue_cards = [
   },
   {
     "title2": "Successful person",
-    "instruction": "Describe a successful person you once studied or worked with",
+    "instruction": "Describe a successful person you once studied or worked with.",
     "contents": [
       "who this person is",
       "how you know this person",
@@ -614,7 +614,7 @@ const cue_cards = [
   },
   {
     "title2": "Exciting activity you did with someone else",
-    "instruction": "Describe an exciting activity that you experienced with someone else",
+    "instruction": "Describe an exciting activity that you experienced with someone else.",
     "contents": [
       "what it was",
       "where you did it",
@@ -630,7 +630,7 @@ const cue_cards = [
   },
   {
     "title2": "History period",
-    "instruction": "Describe a period in history that interests you",
+    "instruction": "Describe a period in history that interests you.",
     "contents": [
       "what the period is",
       "how you know about it",
@@ -665,50 +665,38 @@ function candidate(){
   Array.from(document.getElementsByClassName("examiner")).forEach(x => x.hidden = true);
 }
 
-function display_introductory(i){
-  const introductory = document.getElementById("introductory");
-  remove_all_child(introductory);
-  if(!+i) return;
+function display_questions(){
+  const questions = document.getElementById("questions");
+  remove_all_child(questions);
 
-  const target = introductory_questions[i];
+  const i = Number(document.getElementById("part1_1").value);
+  const j = Number(document.getElementById("part1_2").value);
+  if(i == 0 && j == 0) return;
+
+  const target_introductory = introductory_questions[i];
+  const target_general = general_questions[j];
+
   var legend = document.createElement("legend");
-  legend.textContent = target["title"];
-  introductory.appendChild(legend);
+  legend.textContent = target_introductory["title"] + (i != 0 && j != 0 ? " & " : "") + target_general["title"];
+  questions.appendChild(legend);
 
   var ol = document.createElement("ol");
-  target["questions"].forEach(str => {
+  target_introductory["questions"].concat(target_general["questions"]).forEach(str => {
     var li = document.createElement("li");
     li.textContent = str;
     ol.appendChild(li);
   })
-  introductory.appendChild(ol);
+  questions.appendChild(ol);
 }
 
-function display_general(i){
-  const general = document.getElementById("general");
-  remove_all_child(general);
-  if(!+i) return;
-
-  const target = general_questions[i];
-  var legend = document.createElement("legend");
-  legend.textContent = target["title"];
-  general.appendChild(legend);
-
-  var ol = document.createElement("ol");
-  target["questions"].forEach(str => {
-    var li = document.createElement("li");
-    li.textContent = str;
-    ol.appendChild(li);
-  })
-  general.appendChild(ol);
-}
-
-function display_cue_card(i){
+function display_cue_card(){
   const cue_card = document.getElementById("cue_card");
   remove_all_child(cue_card);
   const question = document.getElementById("question");
   remove_all_child(question);
-  if(!+i) return;
+
+  const i = Number(document.getElementById("part2_3").value);
+  if(i == 0) return;
 
   const target = cue_cards[i];
   // cue card
@@ -718,6 +706,12 @@ function display_cue_card(i){
 
   var p = document.createElement("p");
   p.textContent = target["instruction"];
+  p.appendChild(document.createElement("br"));
+
+  var zip = document.createElement("zip")
+  zip.textContent = "You should say:"
+  p.appendChild(zip);
+
   var ol = document.createElement("ol");
   target["contents"].forEach(str => {
     var li = document.createElement("li");
