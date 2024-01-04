@@ -22,7 +22,7 @@ const introductory_questions = [
     "Is that a big city or a small place?",
     "How long have you been living there?",
     "Do you think you will continue living there for a long time?",
-    "Would you like to live in the contryside in the future?",
+    "Would you like to live in the countryside in the future?",
     "Have you ever lived in the countryside?",
     "Do you ever spend time in the countryside?",
     "What is the difference between living in the countryside and the city?",
@@ -92,7 +92,7 @@ const general_questions = [
     "What was the first film that you watched?",
     "Do you like to watch movies alone or with your friends?",
     "Do you like to go to the cinema with your friends?",
-    "DO you prefer foreign films or films made in your country?"
+    "Do you prefer foreign films or films made in your country?"
   ]},
   {"title": "Coffee and tea", "questions": [
     "Are tea and coffee popular in your country?",
@@ -121,7 +121,7 @@ const general_questions = [
   {"title": "Maps", "questions": [
     "When was the first time you used a map?",
     "How often do you use a map?",
-    "Did you lean to use a map when you were a child?",
+    "Did you learn to use a map when you were a child?",
     "Are you good at reading maps?",
     "Do you prefer electronic or paper map?"
   ]},
@@ -182,7 +182,7 @@ const cue_cards = [
     "questions": [
       "Why do people like to share photos on social media?",
       "Is equipment important for taking photos?",
-      "DO people take more pictures now compared to the past?",
+      "Do people take more pictures now compared to the past?",
       "Do you think being a professional photographer is a good job?",
       "Is it easier to take pictures now than in the past?"
     ]
@@ -404,7 +404,7 @@ const cue_cards = [
     "contents": [
       "who you gave advice to",
       "what the situation was",
-      "what advice tou gave",
+      "what advice you gave",
       "what the result was"
     ],
     "title3": "Advice",
@@ -416,7 +416,7 @@ const cue_cards = [
       "Why do so many young people not accept the advice of older people?",
       "Some people find it easier to accept advice than other people do. Why do you think there is this difference?",
       "In general, what kind of person is most suitable for giving advice to others?",
-      "Do you think it's oke if professional advice costs a lot?",
+      "Do you think it's ok if professional advice costs a lot?",
       "What problems can people face if they ask many different people for advice?",
       "Which do you think is better, advice from young people or advice from older people?",
       "When somebody gives you some advice, do you usually follow this advice or do you usually insist on your own opinion?"
@@ -481,7 +481,7 @@ const cue_cards = [
       "Do you think children will always have ideas and opinions similar to those of their parents?",
       "Are children's opinions influenced by their parents?",
       "What encourages people to come up with new ideas or inventions?",
-      "How do inventors or philosofers come up with new ideas?",
+      "How do inventors or philosophers come up with new ideas?",
       "Do you agree that people should spend more time reading about the ideas of famous thinkers of the past?",
       "Whose ideas and opinions are widely respected in your country?"
     ]
@@ -560,7 +560,7 @@ const cue_cards = [
     "title3": "Learning languages",
     "questions": [
       "How can we help children learn English?",
-      "DO you think the way people learn English today is the same as in the past?",
+      "Do you think the way people learn English today is the same as in the past?",
       "Is it popular to learn English in your country?",
       "Why are so many people learning English?",
       "Do you think English will be the mainstream language of the world in the future?",
@@ -638,7 +638,7 @@ const cue_cards = [
     ],
     "title3": "History",
     "questions": [
-      "Do you agree that learning history mey help people understand the present?",
+      "Do you agree that learning history may help people understand the present?",
       "Is it true that modern society has much to learn from the past?",
       "What are the differences between learning history from books and from videos?",
       "Why is it that some leaders fail to learn from the past?",
