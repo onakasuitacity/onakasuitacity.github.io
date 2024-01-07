@@ -713,11 +713,11 @@ function display_cue_card(){
   p.style.fontWeight = "bold";
   p.hidden = document.getElementById("candidate").checked;
   p.className = "examiner";
-  p.textContent = "Not necessary to explain the cue card since it appears on the candidate's screen as well";
+  p.textContent = "Not necessary to explain the cue card below since it appears on the candidate's screen as well";
   cue_card.appendChild(p);
 
   var legend = document.createElement("legend");
-  legend.textContent = target["title2"];
+  legend.textContent = target["title2"] + " (Cue Card)";
   cue_card.appendChild(legend);
 
   var p = document.createElement("p");
