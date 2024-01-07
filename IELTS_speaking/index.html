@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Cache-Control" content="no-store" />
     <title>IELTS Speaking Mock Test</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -17,14 +18,13 @@
     <div class="container">
       <h1 class="my-4">IELTS Speaking Mock Test</h1>
       <p>
-        This website is designed for candidates, especially those planning to take the IELTS test between January and April 2024, to practice the speaking component with actual topics, according to <a href="https://ielts-assistant.net/" target="_blank">IELTS Preparation Assistant</a>.<br>
-        For more information, see <a href="https://ielts-assistant.s3.amazonaws.com/book/IELTS-Speaking-Preparation-Full-Course.pdf?utm_source=eSputnik-trigger&utm_medium=email&utm_campaign=welcome_email_2023&utm_content=2363367893" target="_blank">IELTS Speaking Preparation Full Course</a>.
+        This website is designed for candidates, especially those planning to take the IELTS test between January and April 2024, to practice the speaking component with actual topics.
       </p>
       <fieldset>
         <legend>Your role:</legend>
         <div class="ms-2">
-          <input type="radio" name="role" id="examiner" class="m-1" onchange="examiner()"><label for="examiner">Examiner</label><br>
-          <input type="radio" name="role" id="candidate" class="m-1" onchange="candidate()"><label for="candidate">Candidate</label>
+          <input type="radio" name="role" id="examiner" class="m-1" autocomplete="off" onchange="examiner()"><label for="examiner">Examiner</label><br>
+          <input type="radio" name="role" id="candidate" class="m-1" autocomplete="off" onchange="candidate()"><label for="candidate">Candidate</label>
         </div>
       </fieldset>
       <div class="examiner" hidden>
@@ -72,9 +72,6 @@
           <select name="part1_1" id="part1_1" class="form-select w-50 examiner my-3" onchange="display_questions()" hidden></select>
           <select name="part1_2" id="part1_2" class="form-select w-50 examiner my-3" onchange="display_questions()" hidden></select>
           <select name="part2_3" id="part2_3" class="form-select w-50 my-3" onchange="display_cue_card()" class="both"></select>
-        </p>
-        <p class="examiner">
-          <font color="red"><b>Not necessary to ask all the questions</b></font>
         </p>
         <div class="examiner" hidden>
           <h3>Part 1</h3>

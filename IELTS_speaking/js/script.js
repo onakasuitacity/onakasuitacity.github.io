@@ -673,6 +673,12 @@ function display_questions(){
   const j = Number(document.getElementById("part1_2").value);
   if(i == 0 && j == 0) return;
 
+  const p = document.createElement("p");
+  p.style.color = "red";
+  p.style.fontWeight = "bold";
+  p.textContent = "Not necessary to ask all the questions";
+  questions.appendChild(p);
+
   const target_introductory = introductory_questions[i];
   const target_general = general_questions[j];
 
@@ -699,7 +705,17 @@ function display_cue_card(){
   if(i == 0) return;
 
   const target = cue_cards[i];
+
   // cue card
+  var p = document.createElement("p");
+  p.id = "cue_card_instruction";
+  p.style.color = "red";
+  p.style.fontWeight = "bold";
+  p.hidden = document.getElementById("candidate").checked;
+  p.className = "examiner";
+  p.textContent = "Not necessary to explain the cue card since it appears on the candidate's screen as well";
+  cue_card.appendChild(p);
+
   var legend = document.createElement("legend");
   legend.textContent = target["title2"];
   cue_card.appendChild(legend);
@@ -722,6 +738,12 @@ function display_cue_card(){
   cue_card.appendChild(p);
 
   // question
+  var p = document.createElement("p");
+  p.style.color = "red";
+  p.style.fontWeight = "bold";
+  p.textContent = "Not necessary to ask all the questions";
+  question.appendChild(p);
+
   var legend = document.createElement("legend");
   legend.textContent = target["title3"];
   question.appendChild(legend);
@@ -760,7 +782,7 @@ function display_cue_card(){
   for(var i = 0; i < cue_cards.length; ++i){
     var option = document.createElement("option");
     option.value = i;
-    option.textContent = i ? i : "-- Select part 2 cue card & part 3 topic --";
+    option.textContent = i ? i : "-- Select part 2 cue card & part 3 questions --";
     part2_3.appendChild(option);
   }
 })();
