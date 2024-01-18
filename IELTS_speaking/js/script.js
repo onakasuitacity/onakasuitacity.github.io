@@ -1,7 +1,7 @@
 "use strict";
 
 // constants
-const introductory_questions = [
+const question_lists = [
   {"title": "", "questions": []},
   {"title": "Work and studies", "questions": [
     "Do you work or are you a student?",
@@ -42,10 +42,6 @@ const introductory_questions = [
     "What would you like to change in your flat?",
     "What do you dislike about your flat?"
   ]},
-];
-
-const general_questions = [
-  {"title": "", "questions": []},
   {"title": "Fishing", "questions": [
     "Have you ever been to a place where there are lots of fish around you?",
     "Is fishing popular in your country?",
@@ -225,7 +221,7 @@ const cue_cards = [
     ]
   },
   {
-    "title2": "Person who likes cooking for others.",
+    "title2": "Person who likes cooking for others",
     "instruction": "Describe someone who likes cooking for others",
     "contents": [
       "who this person is",
@@ -669,9 +665,8 @@ function display_questions(){
   const questions = document.getElementById("questions");
   remove_all_child(questions);
 
-  const i = Number(document.getElementById("part1_1").value);
-  const j = Number(document.getElementById("part1_2").value);
-  if(i == 0 && j == 0) return;
+  const i = Number(document.getElementById("part1").value);
+  if(i == 0) return;
 
   const p = document.createElement("p");
   p.style.color = "red";
@@ -679,15 +674,13 @@ function display_questions(){
   p.textContent = "Not necessary to ask all the questions";
   questions.appendChild(p);
 
-  const target_introductory = introductory_questions[i];
-  const target_general = general_questions[j];
+  const target = question_lists[i];
 
   var legend = document.createElement("legend");
-  legend.textContent = target_introductory["title"] + (i != 0 && j != 0 ? " & " : "") + target_general["title"];
-  questions.appendChild(legend);
+  legend.textContent = target["title"];
 
   var ol = document.createElement("ol");
-  target_introductory["questions"].concat(target_general["questions"]).forEach(str => {
+  target["questions"].forEach(str => {
     var li = document.createElement("li");
     li.textContent = str;
     ol.appendChild(li);
@@ -759,22 +752,13 @@ function display_cue_card(){
 
 // main
 (() => {
-  // introductory
-  const part1_1 = document.getElementById("part1_1");
-  for(var i = 0; i < introductory_questions.length; ++i){
+  // question
+  const part1 = document.getElementById("part1");
+  for(var i = 0; i < question_lists.length; ++i){
     var option = document.createElement("option");
     option.value = i;
-    option.textContent = i ? i : "-- Select part 1 introductory questions --";
-    part1_1.appendChild(option);
-  }
-
-  // general
-  const part1_2 = document.getElementById("part1_2");
-  for(var i = 0; i < general_questions.length; ++i){
-    var option = document.createElement("option");
-    option.value = i;
-    option.textContent = i ? i : "-- Select part 1 general questions --";
-    part1_2.appendChild(option);
+    option.textContent = i ? i : "-- Select part 1 questions --";
+    part1.appendChild(option);
   }
 
   // cue card & question
