@@ -678,6 +678,7 @@ function display_questions(){
 
   var legend = document.createElement("legend");
   legend.textContent = target["title"];
+  questions.appendChild(legend);
 
   var ol = document.createElement("ol");
   target["questions"].forEach(str => {
