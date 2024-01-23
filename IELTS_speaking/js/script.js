@@ -128,7 +128,7 @@ const question_lists = [
   {"title": "Clothes", "questions": [
     "What kind of clothes do you like to wear?",
     "What kind of clothes do you never wear?",
-    "Do you wear the same style of clothes on weekdays and weekdays?",
+    "Do you wear the same style of clothes on weekdays and weekends?",
     "What colour clothes do you like to wear?",
     "Do people in your country like to wear bright colour?",
     "What are the differences between men and women's preference in colour?"
@@ -141,6 +141,104 @@ const question_lists = [
     "How would you improve transport in your town or area?",
     "How would you reduce traffic problems in your area?",
     "How do you think public transport could be improved?"
+  ]},
+  {"title": "Colours", "questions": [
+    "What colour car would you choose to buy?",
+    "What is your favourite colour?",
+    "What is the most popular colour in your country?",
+    "Do you think colours influence you?",
+    "Do you think colours are important?",
+    "Were colour important to you when you were a child?",
+    "What colour clothes do you like to wear?",
+    "Do people in your country like to wear bright colours?",
+    "What are the differences between men and women's preference in colour?",
+    "What colour would you never use in your home?",
+    "What colour would you choose to paint the walls of your room?",
+  ]},
+  {"title": "Cakes", "questions": [
+    "Have you ever made a cake yourself?",
+    "Do you like cakes?",
+    "Did you like cakes when you were a child?",
+    "Do you eat cakes or other sweet things after a meal?",
+  ]},
+  {"title": "Sunglasses", "questions": [
+    "Do you wear sunglasses?",
+    "Why do you wear sunglasses?",
+    "How often do you buy sunglasses?",
+    "Have you ever lost your sunglasses?",
+  ]},
+  {"title": "Social media", "questions": [
+    "Do you like using social media?",
+    "Do your friends use social media?",
+    "What's the most popular social media in your country?",
+    "What kind of people do you like to be friends with on those websites?",
+    "What kind of social networking websites do you like to use?",
+    "What kind of chatting apps or software do people in your country like to use?",
+  ]},
+  {"title": "Music", "questions": [
+    "What kinds of music do you like to listen to?",
+    "What kinds of music are most popular in your country?",
+    "Have you ever learnt to play a musical instrument?",
+    "Is music an important subject at school in your country?",
+    "When did you start listening to that type of music?",
+    "Do you often listen to music?",
+    "When do you listen to music?",
+    "How much time do you spend listening to music every day?",
+    "How do you feel when you listen to it?",
+    "Do you like listening to songs?",
+    "Have you ever been to a musical performance or concert?",
+    "Did you often listen to music when you were a child?",
+    "Do you like listening to music at work?",
+    "Do people prefer to buy CDs or download music online?",
+  ]},
+  {"title": "Collecting things", "questions": [
+    "What items are considered collectibles in your country?",
+    "Is collecting a popular pastime in your country?",
+    "Do a lot of people in your country collect things?",
+    "Why do people like collecting?",
+    "What are the benefits of collecting?",
+    "Do you collect things?",
+  ]},
+  {"title": "Crowded places", "questions": [
+    "How do you feel when you are in a crowded place?",
+    "When was the last time you were in a crowded place?",
+    "What places do you think are often crowded?",
+    "How often do you go to crowded places?",
+    "Do you like crowded places?",
+  ]},
+  {"title": "Being bored", "questions": [
+    "What things are boring to you?",
+    "What do you do when you feel bored?",
+    "Do you ever get bored?",
+    "Do you think school is boring?",
+    "Do you feel more bored now than when you were young?",
+  ]},
+  {"title": "Singing", "questions": [
+    "Do you think singing can bring happiness to people?",
+    "Do you often sing?",
+    "When do you like to sing?",
+    "Is it difficult to sing well?",
+    "Do you want to be a singer?",
+    "What kinds of music do you like to sing?",
+  ]},
+  {"title": "Advertising", "questions": [
+    "How do you feel about advertisements?",
+    "Do you like advertisements?",
+    "Do you like advertisements on TV?",
+    "Is there much advertising in your country?",
+    "What are the different places where we see advertisements?",
+    "What advertising do you have in your country?",
+  ]},
+  {"title": "Celebrities", "questions": [
+    "Who is your favourite celebrity in your country?",
+    "Do you want to be a celebrity (or a pop star)?",
+    "Do you read news about celebrities?",
+    "Have you ever met celebrities (or pop stars) face to face?",
+  ]},
+  {"title": "Money", "questions": [
+    "How can you save money?",
+    "Why do people save money?",
+    "Did you save money when you were young?",
   ]},
 ]
 
@@ -642,6 +740,370 @@ const cue_cards = [
       "How can technology make learning history more interesting?",
       "How do museums teach people history?",
       "Are history museums useful?"
+    ]
+  },
+  {
+    "title2": "Talkative person",
+    "instruction": "Describe a person you know who likes to talk a lot.",
+    "contents": [
+      "who this person is",
+      "what he or she likes to talk about",
+      "how you feel talking to this person",
+    ],
+    "title3": "Expressing yourself, communication",
+    "questions": [
+      "What jobs need employees to be talkative?",
+      "In what industries do you think communication is a necessary skill?",
+      "Should children be encouraged to talk more?",
+      "What communication skills does a talkative person have?",
+      "What communication skills are important?",
+      "Do you agree that communication skills cannot be learnt?",
+      "Are you talkative?",
+      "Are people in your country talkative?",
+    ]
+  },
+  {
+    "title2": "Noise",
+    "instruction": "Describe an occasion when someone or something made noise.",
+    "contents": [
+      "who or what made the noise",
+      "what the noise was like",
+      "what you did",
+      "how you felt about it",
+    ],
+    "title3": "Noise",
+    "questions": [
+      "Should children not be allowed to make noise under any circumstances?",
+      "What type of noise do you come across in your daily life?",
+      "Is it hard to find quiet places in cities?",
+      "Where can people hear a lot of noise?",
+    ]
+  },
+  {
+    "title2": "Something you do that helps you work or study",
+    "instruction": "Describe something you do regularly that helps you work and study better.",
+    "contents": [
+      "what it is",
+      "when you do it",
+      "how you feel when you do this",
+      "how it helps you",
+    ],
+    "title3": "Daily routine",
+    "questions": [
+      "How important is it to have a daily routine?",
+      "What are the advantages and disadvantages of routine?",
+      "How can people change their daily routine if they want to?",
+      "Why do some people not like to make any changes to their routines?",
+      "Do you think having a daily routine is boring?",
+      "Would you agree that people who have fixed routines are not creative?",
+      "Are there people who don't like routine?",
+    ]
+  },
+  {
+    "title2": "Useful object",
+    "instruction": "Describe a useful object in your home you can't live without.",
+    "contents": [
+      "what it is",
+      "how you use it",
+      "how often you use it",
+      "how it helps you and why you can't live without it",
+    ],
+    "title3": "Technology and equipment",
+    "questions": [
+      "What electrical appliances do people in your country have at home?",
+      "What household appliances make us lazy?",
+      "What benefits do people get from using electrical appliances?",
+      "Has IT made any impact on business?",
+      "What are the benefits of using technology in the workplace?",
+    ]
+  },
+  {
+    "title2": "Skill",
+    "instruction": "Describe a skill that you learned in your childhood.",
+    "contents": [
+      "what skill you learned",
+      "who taught you this skill",
+      "how they taught you",
+      "why you think it is important",
+    ],
+    "title3": "Skills",
+    "questions": [
+      "What's the difference between children learning and adults learning what they have to learn?",
+      "What practical skills can young people teach old people?",
+      "What skills can younger people learn from older people?",
+      "Where can we learn practical skills?",
+    ]
+  },
+  {
+    "title2": "Unusual holiday",
+    "instruction": "Describe an unusual holiday you had.",
+    "contents": [
+      "what holiday it was",
+      "who you were with",
+      "what you did there",
+      "why it was unusual",
+    ],
+    "title3": "Tourism, travelling, holidays",
+    "questions": [
+      "Why do some people think it is enjoyable to stay at home on holidays?",
+      "Why is it difficult for some people to relax?",
+      "Why is it that some people don't like holidays?",
+      "What leisure activities do old and young people prefer?",
+      "How do people spend their leisure time in your country?",
+      "Do old people and young people choose different places to go on vacation?",
+      "What does tourism have to do with cultural exchange?",
+    ]
+  },
+  {
+    "title2": "Helping someone",
+    "instruction": "Describe a situation when you helped someone.",
+    "contents": [
+      "what the situation was",
+      "who the person was",
+      "how you helped them",
+      "how you felt after helping them",
+    ],
+    "title3": "Helping others",
+    "questions": [
+      "In your view, should children be taught to help others and to be kind to them?",
+      "How can we encourage children to help others?",
+      "Who should teach children to help others, parents or teachers?",
+      "In what kinds of professions do people help others more?",
+    ]
+  },
+  {
+    "title2": "Being busy",
+    "instruction": "Describe a period when you were very busy.",
+    "contents": [
+      "when this time was",
+      "what you did at this time",
+      "how you arranged your time",
+      "how you felt after this busy time was over",
+    ],
+    "title3": "Time management, feeling tired",
+    "questions": [
+      "What are the advantages and disadvantages of always being busy?",
+      "What are the advantages and disadvantages of having a stressful job?",
+    ]
+  },
+  {
+    "title2": "Job",
+    "instruction": "Describe a job you would not like to do in the future.",
+    "contents": [
+      "what it is",
+      "whether you think it's easy or difficult",
+      "explain why you don't want to do it",
+    ],
+    "title3": "Jobs and AI",
+    "questions": [
+      "Which is more important for young people, an interesting or well-paid job?",
+      "What kinds of jobs are well-paid in your country?",
+      "What jobs do young people like to do?",
+      "Do you think that nowadays the only way for people to get personal fulfillment is at work?",
+    ]
+  },
+  {
+    "title2": "Place to relax",
+    "instruction": "Describe a place where you want to go to relax.",
+    "contents": [
+      "what the place is",
+      "how often you go there",
+      "what you do there",
+      "why you feel relaxed in this place",
+    ],
+    "title3": "Rest",
+    "questions": [
+      "Which is more important, mental relaxation or physical relaxation?",
+      "What are some examples of ways that people use to relax?",
+      "Do people nowadays have more ways to relax than in the past?",
+      "Do you think that people today have more leisure time than people in the past?",
+      "What is the difference in the way people spend their free time nowadays and 20 or 30 years ago?",
+      "What do people in your country do in their spare time?",
+    ]
+  },
+  {
+    "title2": "Uniform",
+    "instruction": "Describe a uniform you wear.",
+    "contents": [
+      "what it is like",
+      "when you wear it",
+      "who bought it for you",
+      "how you feel about it",
+    ],
+    "title3": "Uniforms and clothes",
+    "questions": [
+      "Do you think students need to wear school uniforms?",
+      "What are the advantages and disadvantages of wearing uniforms?",
+      "What kinds of clothes should people wear at work?",
+      "Do you think people should wear formal clothes in the workplace?",
+    ]
+  },
+  {
+    "title2": "Outdoor activity",
+    "instruction": "Describe an outdoor activity you did in a new place.",
+    "contents": [
+      "what you did, when and where you did it",
+      "who you did it with",
+      "whether it was difficult or easy",
+      "why this activity was new or exciting for you",
+    ],
+    "title3": "Outdoor activities",
+    "questions": [
+      "Do people relax when they see nature?",
+      "Is the environment important for people to get relaxed?",
+    ]
+  },
+  {
+    "title2": "Item that was lost and found",
+    "instruction": "Describe a time when you lost something and then got it back.",
+    "contents": [
+      "what it was",
+      "where you lost it",
+      "how you found it",
+      "how you felt",
+    ],
+    "title3": "Losing things",
+    "questions": [
+      "Is it easy to lose something?",
+      "Why do some people lose things easily?",
+      "Why do some people worry more than others when they lose things?",
+      "How can we avoid losing things?",
+      "What things do people often lose?",
+      "How can parents teach children to be organized?",
+      "Is it important for children to be organized?",
+      "If you lost a phone, how would you find it?",
+    ]
+  },
+  {
+    "title2": "Something you bought from a street market",
+    "instruction": "Describe a time you bought something from a street market.",
+    "contents": [
+      "what street market it was and where it was",
+      "when it was",
+      "what you bought",
+      "how you felt about this shopping experience",
+    ],
+    "title3": "Shopping",
+    "questions": [
+      "What are the advantages and disadvantages of shopping at a big shopping centre?",
+      "What makes large shopping malls so popular?",
+      "Are small shops important?",
+      "Is the service the same in big and small shops?",
+      "What do small shops usually sell?",
+    ]
+  },
+  {
+    "title2": "Doing something in a hurry",
+    "instruction": "Describe an occasion when you had to do something in a hurry.",
+    "contents": [
+      "what it was",
+      "when it was",
+      "why you had to do it quickly",
+      "how you felt about it",
+    ],
+    "title3": "Being in a hurry",
+    "questions": [
+      "On what occasions do people have to do things in a hurry?",
+      "What kinds of jobs need to be done quickly?",
+    ]
+  },
+  {
+    "title2": "Film",
+    "instruction": "Describe an impressive movie you watched.",
+    "contents": [
+      "what the movie is about",
+      "where and when you watched it",
+      "why it is impressive",
+    ],
+    "title3": "Films",
+    "questions": [
+      "Do people in your country still like to go to a cinema?",
+      "Where do people watch movies?",
+    ]
+  },
+  {
+    "title2": "Goal",
+    "instruction": "Describe a long-term goal you would like to achieve.",
+    "contents": [
+      "what it is",
+      "how long you have had it",
+      "how you will achieve it",
+      "why you set this goal",
+    ],
+    "title3": "Goals",
+    "questions": [
+      "Why do people set goals?",
+      "Why is it important for teenagers to set goals?",
+      "Why should parents encourage children to have ambitions?",
+      "Do people usually set different goals at different stages of life?",
+      "Is there any difference between children's ambitions and those of grown-ups?",
+      "Does everyone set goals for themselves?",
+      "Should parents set goals for children?",
+      "Should parents interfere with their children's ambitions?",
+      "Should parents stop their children when they have unrealistic ambitions?",
+      "What kinds of ambitions do people usually have?",
+    ]
+  },
+  {
+    "title2": "Travel that was delayed",
+    "instruction": "Describe a travel you were looking forward to but was delayed.",
+    "contents": [
+      "where you planned to travel to",
+      "why you were looking forward to it",
+      "why it was delayed",
+      "how you felt about the experience",
+    ],
+    "title3": "Transportation, travelling",
+    "questions": [
+      "What's the most popular means of transportation in your hometown?",
+      "How do people travel to work?",
+      "What needs to be improved in public transport?",
+      "What can the government do to improve transport in your country?",
+      "In what ways can we fix traffic problems?",
+      "Do you agree that it was more comfortable to travel in the past than it is today?",
+      "What kind of problems do people have when travelling?",
+      "When travelling on a long journey, what do you think people need to pay attention to?",
+    ]
+  },
+  {
+    "title2": "Complaint you heard",
+    "instruction": "Describe an occasion when you heard someone complaining about something in a restaurant, store or another business place.",
+    "contents": [
+      "what the person complained about",
+      "when and where it was",
+      "what the results were",
+      "how you felt about it",
+    ],
+    "title3": "Complaints",
+    "questions": [
+      "What do people often complain about?",
+      "What products or services do people in your country like to complain about?",
+      "Who is more likely to make complaints, older people or younger people?",
+      "When are people more likely to make complaints?",
+      "Which is the better way of making complaints, by talking or by writing?",
+      "Is it necessary for companies to set up customer service?",
+      "Are there any disadvantages in setting up customer service?",
+      "Do you think customers' complaints will improve products or services?",
+    ]
+  },
+  {
+    "title2": "Conversation",
+    "instruction": "Describe an interesting conversation with a very old person.",
+    "contents": [
+      "who that person is",
+      "when and where it was",
+      "what you talked about",
+      "why it was interesting",
+    ],
+    "title3": "Old people",
+    "questions": [
+      "What kinds of things can young people learn from old people?",
+      "Do you think old people enjoy their life more these days compared with the past?",
+      "Do you think old people and young people can share interests?",
+      "In your country, do young people like to live with old people?",
+      "What kinds of activities do old people like to do these days?",
+      "Why do some old people only remember happy things?",
+      "Why do young people like to ask about the past of old people?",
     ]
   },
 ]
