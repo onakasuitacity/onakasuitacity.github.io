@@ -1106,6 +1106,63 @@ const cue_cards = [
       "Why do young people like to ask about the past of old people?",
     ]
   },
+  {
+    "title2": "Map",
+    "instruction": "Describe an occasion when you used a map that was useful.",
+    "contents": [
+      "what type of map it was",
+      "hoe useful it was",
+      "why you used it",
+      "how you felt about the experience",
+    ],
+    "title3": "Getting lost, maps",
+    "questions": [
+      "How can people find their way when they are lost?",
+      "How do people react when they get lost?",
+      "Do you think that children should be taught to read paper maps at school?",
+      "Why are there some people who never get lost?",
+      "Why do some people have a good sense of direction?",
+      "What can people do not to get lost?",
+      "Do you often get lost?",
+    ]
+  },
+  {
+    "title2": "Great team player",
+    "instruction": "Describe a time when someone did quite well in a team.",
+    "contents": [
+      "who this person was",
+      "when you worked together",
+      "what this person did in a team",
+      "why you think this person was a great team member",
+    ],
+    "title3": "Leadership, teamwork",
+    "questions": [
+      "What are the qualities of a good leader?",
+      "Why do many people want to be leaders?",
+      "Why are some people afraid of being a leader?",
+      "How do people become leaders?",
+      "Can everyone become a leader?",
+      "What qualities do you think a good team member should have?",
+    ]
+  },
+  {
+    "title2": "Activity you liked in primary school",
+    "instruction": "Describe an interesting activity that you enjoyed in your primary school.",
+    "contents": [
+      "what it was",
+      "who you did it with",
+      "how often you did it",
+      "why you like it",
+    ],
+    "title3": "Free time activities",
+    "questions": [
+      "What do you usually do when you hang out with your friends?",
+      "Do people in your country like to spend their leisure time out in your country?",
+      "Is it important for children to play with their peers?",
+      "How do you spend your spare time?",
+      "Will the development of science and technology give people more free time?",
+    ]
+  },
 ]
 
 // functions
