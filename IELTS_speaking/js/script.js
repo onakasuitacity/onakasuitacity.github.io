@@ -1163,6 +1163,25 @@ const cue_cards = [
       "Will the development of science and technology give people more free time?",
     ]
   },
+  {
+    "title2": "Public facility that has been renovated",
+    "instruction": "Describe a public facility that has been renovated or improved.",
+    "contents": [
+      "what it was",
+      "when it was",
+      "what has been renovated",
+      "how you felt about it",
+    ],
+    "title3": "Public facilities, parks",
+    "questions": [
+      "Why is it important to have parks in the city?",
+      "What benefits can a park bring to a city?",
+      "Do we need big parks or small parks in the city?",
+      "Do young people like to go to parks?",
+      "What do old people like to do in parks?",
+      "What are the benefits of going to the park for young people and old people?",
+    ]
+  },
 ]
 
 // functions
