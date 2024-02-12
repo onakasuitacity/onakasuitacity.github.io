@@ -1182,6 +1182,21 @@ const cue_cards = [
       "What are the benefits of going to the park for young people and old people?",
     ]
   },
+  {
+    "title2": "Hospitable person",
+    "instruction": "Describe a person who is good at welcoming people in his or her home.",
+    "contents": [
+      "who this person is",
+      "how you know each other",
+      "why you think this person is good at welcoming people",
+    ],
+    "title3": "Guests, tourist attractions",
+    "questions": [
+      "How will you entertain friends in your home?",
+      "Why do some people prefer not to entertain guests at home?",
+      "In your country, when people visit other people in their homes, do they usually bring a gift?",
+    ]
+  },
 ]
 
 // functions
