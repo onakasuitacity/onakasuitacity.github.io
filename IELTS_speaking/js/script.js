@@ -1111,7 +1111,7 @@ const cue_cards = [
     "instruction": "Describe an occasion when you used a map that was useful.",
     "contents": [
       "what type of map it was",
-      "hoe useful it was",
+      "how useful it was",
       "why you used it",
       "how you felt about the experience",
     ],
