@@ -1,0 +1,240 @@
+[
+  {"title": "", "questions": []},
+  {"title": "Work and studies", "questions": [
+    "Do you work or are you a student?",
+    "What work do you do? What subjects are you studying?",
+    "Why did you choose that job?",
+    "Why did you choose to study that subject?",
+    "Do you like your job?",
+    "Is there anything you dislike about your job?",
+    "What do you like about your studies?",
+    "What do you dislike about your studies?",
+    "What was your dream job when you were young?",
+    "Have you changed your mind on your dream job?"
+  ]},
+  {"title": "Hometown", "questions": [
+    "Please describe your hometown a little.",
+    "What is your town well-known for?",
+    "Do you like your home town?",
+    "Is that a big city or a small place?",
+    "How long have you been living there?",
+    "Do you think you will continue living there for a long time?",
+    "Would you like to live in the countryside in the future?",
+    "Have you ever lived in the countryside?",
+    "Do you ever spend time in the countryside?",
+    "What is the difference between living in the countryside and the city?",
+    "What do people living in the countryside like to do?",
+    "What do you like to do in the countryside?",
+    "How has your town changed over the last 20 years?"
+  ]},
+  {"title": "Home decoration", "questions": [
+    "What colour would you choose to paint the walls of your room?",
+    "What colour would you never use in your home?",
+    "Can you describe the place where you live?",
+    "What kind of housing accommodation do you live in?",
+    "What do you like about your flat?",
+    "Which room does your family spend most of the time in?",
+    "What can you see from the windows where you live?",
+    "Do you prefer living in a house or a flat?",
+    "What would you like to change in your flat?",
+    "What do you dislike about your flat?"
+  ]},
+  {"title": "Fishing", "questions": [
+    "Have you ever been to a place where there are lots of fish around you?",
+    "Is fishing popular in your country?",
+    "Do you like eating fish?",
+    "Have you seen any movies with lots of fish?",
+    "Why do people go fishing?"
+  ]},
+  {"title": "Robots", "questions": [
+    "Are robots important?",
+    "How can robots affect people's lives?",
+    "Are you interested in robots?",
+    "Would you like robots to work at your home?",
+    "Do you want to take a car in which a robot is a driver?"
+  ]},
+  {"title": "Geography", "questions": [
+    "Have you ever learned Geography?",
+    "Do you think Geography is useful?",
+    "Do you like Geography?",
+    "Do you ever want to travel to a country because of its geographical location?"
+  ]},
+  {"title": "Gifts", "questions": [
+    "How do we choose gifts?",
+    "What kind of gifts are popular in your country?",
+    "What's the best gift you have ever received?",
+    "What do you give others as gifts?",
+    "Do you like to give expensive gifts?",
+    "How often do you buy gifts for other people?",
+    "Why do people give gifts?",
+    "Have you ever received a gift which you didn't like?"
+  ]},
+  {"title": "Running", "questions": [
+    "What do you think of running as a form of exercise?",
+    "Do you like running?",
+    "Where do you run?",
+    "Where do you go running?",
+    "How often do you run?",
+    "Do you go running a lot?"
+  ]},
+  {"title": "Films", "questions": [
+    "Do you like to watch films?",
+    "What kinds of movies do you like best?",
+    "How often do you go to a cinema to watch a movie?",
+    "Did you usually go to the cinema when you were a kid?",
+    "What was the first film that you watched?",
+    "Do you like to watch movies alone or with your friends?",
+    "Do you like to go to the cinema with your friends?",
+    "Do you prefer foreign films or films made in your country?"
+  ]},
+  {"title": "Coffee and tea", "questions": [
+    "Are tea and coffee popular in your country?",
+    "Do people like tea or coffee nowadays?",
+    "Do you prefer to drink tea or coffee?",
+    "Do you like tea and coffee?",
+    "Do you often drink coffee and tea?"
+  ]},
+  {"title": "Noise", "questions": [
+    "Do you mind noises?",
+    "Do any noises bother you?",
+    "Do you think there's too much noise in today's world?",
+    "What type of noise do you come across in your daily life?",
+    "Are there any sounds that you like?"
+  ]},
+  {"title": "Musical instruments", "questions": [
+    "Have you ever learnt to play a musical instrument?",
+    "Is music an important subject at school in your country?"
+  ]},
+  {"title": "Helping others", "questions": [
+    "Do you usually help people around you?",
+    "How do you help people around you, such as neighbors, family and friends?",
+    "Do your parents teach you how to help others?",
+    "Did your parents help you a lot when you were young?"
+  ]},
+  {"title": "Maps", "questions": [
+    "When was the first time you used a map?",
+    "How often do you use a map?",
+    "Did you learn to use a map when you were a child?",
+    "Are you good at reading maps?",
+    "Do you prefer electronic or paper map?"
+  ]},
+  {"title": "Chatting", "questions": [
+    "What do you like to talk about with your friends?",
+    "Have your discussion topics changed since you were a child?"
+  ]},
+  {"title": "Clothes", "questions": [
+    "What kind of clothes do you like to wear?",
+    "What kind of clothes do you never wear?",
+    "Do you wear the same style of clothes on weekdays and weekends?",
+    "What colour clothes do you like to wear?",
+    "Do people in your country like to wear bright colour?",
+    "What are the differences between men and women's preference in colour?"
+  ]},
+  {"title": "Transportation", "questions": [
+    "What's the most popular means of transportation in your hometown?",
+    "How do you go to work or school?",
+    "Will you use public transport more in the future?",
+    "Are there any traffic problems in your area?",
+    "How would you improve transport in your town or area?",
+    "How would you reduce traffic problems in your area?",
+    "How do you think public transport could be improved?"
+  ]},
+  {"title": "Colours", "questions": [
+    "What colour car would you choose to buy?",
+    "What is your favourite colour?",
+    "What is the most popular colour in your country?",
+    "Do you think colours influence you?",
+    "Do you think colours are important?",
+    "Were colour important to you when you were a child?",
+    "What colour clothes do you like to wear?",
+    "Do people in your country like to wear bright colours?",
+    "What are the differences between men and women's preference in colour?",
+    "What colour would you never use in your home?",
+    "What colour would you choose to paint the walls of your room?"
+  ]},
+  {"title": "Cakes", "questions": [
+    "Have you ever made a cake yourself?",
+    "Do you like cakes?",
+    "Did you like cakes when you were a child?",
+    "Do you eat cakes or other sweet things after a meal?"
+  ]},
+  {"title": "Sunglasses", "questions": [
+    "Do you wear sunglasses?",
+    "Why do you wear sunglasses?",
+    "How often do you buy sunglasses?",
+    "Have you ever lost your sunglasses?"
+  ]},
+  {"title": "Social media", "questions": [
+    "Do you like using social media?",
+    "Do your friends use social media?",
+    "What's the most popular social media in your country?",
+    "What kind of people do you like to be friends with on those websites?",
+    "What kind of social networking websites do you like to use?",
+    "What kind of chatting apps or software do people in your country like to use?"
+  ]},
+  {"title": "Music", "questions": [
+    "What kinds of music do you like to listen to?",
+    "What kinds of music are most popular in your country?",
+    "Have you ever learnt to play a musical instrument?",
+    "Is music an important subject at school in your country?",
+    "When did you start listening to that type of music?",
+    "Do you often listen to music?",
+    "When do you listen to music?",
+    "How much time do you spend listening to music every day?",
+    "How do you feel when you listen to it?",
+    "Do you like listening to songs?",
+    "Have you ever been to a musical performance or concert?",
+    "Did you often listen to music when you were a child?",
+    "Do you like listening to music at work?",
+    "Do people prefer to buy CDs or download music online?"
+  ]},
+  {"title": "Collecting things", "questions": [
+    "What items are considered collectibles in your country?",
+    "Is collecting a popular pastime in your country?",
+    "Do a lot of people in your country collect things?",
+    "Why do people like collecting?",
+    "What are the benefits of collecting?",
+    "Do you collect things?"
+  ]},
+  {"title": "Crowded places", "questions": [
+    "How do you feel when you are in a crowded place?",
+    "When was the last time you were in a crowded place?",
+    "What places do you think are often crowded?",
+    "How often do you go to crowded places?",
+    "Do you like crowded places?"
+  ]},
+  {"title": "Being bored", "questions": [
+    "What things are boring to you?",
+    "What do you do when you feel bored?",
+    "Do you ever get bored?",
+    "Do you think school is boring?",
+    "Do you feel more bored now than when you were young?"
+  ]},
+  {"title": "Singing", "questions": [
+    "Do you think singing can bring happiness to people?",
+    "Do you often sing?",
+    "When do you like to sing?",
+    "Is it difficult to sing well?",
+    "Do you want to be a singer?",
+    "What kinds of music do you like to sing?"
+  ]},
+  {"title": "Advertising", "questions": [
+    "How do you feel about advertisements?",
+    "Do you like advertisements?",
+    "Do you like advertisements on TV?",
+    "Is there much advertising in your country?",
+    "What are the different places where we see advertisements?",
+    "What advertising do you have in your country?"
+  ]},
+  {"title": "Celebrities", "questions": [
+    "Who is your favourite celebrity in your country?",
+    "Do you want to be a celebrity (or a pop star)?",
+    "Do you read news about celebrities?",
+    "Have you ever met celebrities (or pop stars) face to face?"
+  ]},
+  {"title": "Money", "questions": [
+    "How can you save money?",
+    "Why do people save money?",
+    "Did you save money when you were young?"
+  ]}
+]
